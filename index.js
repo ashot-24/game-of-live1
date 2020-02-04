@@ -40,18 +40,18 @@
 
 // norxot.mul();
 
-var fs = require("fs");
+// var fs = require("fs");
 
 // fs.readFileSync("hello.txt", "utf8", 
 //    console.log("fs.writeFile ended")
 // )
 // console.log("fs.writeFile");
-var obj = {
-   "first_name ":"Ashot",
-   "last_name":"Khachatryan",
-   "age":15,
-   "st":true
-}
-var text = JSON.stringify(obj);
+// var obj = {
+//    "first_name ":"Ashot",
+//    "last_name":"Khachatryan",
+//    "age":15,
+//    "st":true
+// }
+// var text = JSON.stringify(obj);
 
-fs.writeFileSync("myobj.json" , text);
+// fs.writeFileSync("myobj.json" , text);
